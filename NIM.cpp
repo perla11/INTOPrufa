@@ -121,9 +121,6 @@ void birta( int* hruga )
 	}
 
 	cout << endl << endl;
-	cout << "Fjoldi eldspytna i hverri hrugu er: ";
-	for ( int c = 0; c < hrugufjoldi; c++ )
-	{
 		if( hruga[c] < 10 )
 		{
 			cout << " " << hruga[ c ] << "  ";
@@ -172,7 +169,7 @@ void notandi( int* hruga )
 	hruga[ hrugunumer - 1 ] -= eldspytur;
 	if( !samtals( hruga ) )
 	{
-		cout << endl << "Thu vannst.  Til hamingju!" << endl << endl;
+		cout << endl << "Thu vannst krullujarn!  Til hamingju!" << endl << endl;
 		cout << "Sladu a einhvern lykil... " << endl;
 		getchar( );
 	}
